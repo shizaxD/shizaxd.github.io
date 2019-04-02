@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-04-01T20:33:34-06:00</updated><id>/feed.xml</id><entry><title type="html">Tu Pagina En Github</title><link href="/2019/04/01/tu-pagina-en-github.html" rel="alternate" type="text/html" title="Tu Pagina En Github" /><published>2019-04-01T00:00:00-06:00</published><updated>2019-04-01T00:00:00-06:00</updated><id>/2019/04/01/tu-pagina-en-github</id><content type="html" xml:base="/2019/04/01/tu-pagina-en-github.html">&lt;p&gt;Tutorial para paginas en github&lt;/p&gt;
+
+&lt;p&gt;Empecemos por el principio&lt;/p&gt;
+
+&lt;p&gt;Accedemos a la pagina de jekyll que explica esto. https://jekyllrb.com/docs/github-pages/
+Y seguimos sus pasos :P&lt;/p&gt;</content><author><name>cesar</name></author><summary type="html">Tutorial para paginas en github</summary></entry><entry><title type="html">Jekyll</title><link href="/2019/03/30/jekyll.html" rel="alternate" type="text/html" title="Jekyll" /><published>2019-03-30T00:00:00-06:00</published><updated>2019-03-30T00:00:00-06:00</updated><id>/2019/03/30/jekyll</id><content type="html" xml:base="/2019/03/30/jekyll.html">&lt;p&gt;Este es un post para ejemplificar el uso de post en jekyll.&lt;/p&gt;
+
+&lt;p&gt;Jekyll hace uso del paradigma de objetos y construye paginas web a partir de de  otros archivos mas facilmente manejables que un html sin generar tanto codigo basura.&lt;/p&gt;</content><author><name>cesar</name></author><summary type="html">Este es un post para ejemplificar el uso de post en jekyll.</summary></entry></feed>
