@@ -1,0 +1,305 @@
+@charset "UTF-8";
+header {
+    background-color: rgb(153, 204, 102);
+}
+
+.sombra {
+    text-shadow: 4px 4px 4px #333;
+    -webkit-text-stroke: 2px #063;
+    -webkit-text-fill-color: #99CC00;
+}
+
+@font-face {
+    font-family: 'Pfennig';
+    src: url(../Fuentes/Pfennig.eot);
+    src: url(../Fuentes/Pfennig.svg);
+    src: url(../Fuentes/Pfennig.ttf);
+}
+
+@font-face {
+    font-family: 'PfennigBold';
+    src: url(../Fuentes/PfennigBold.eot);
+    src: url(../Fuentes/PfennigBold.svg);
+    src: url(../Fuentes/PfennigBold.ttf);
+}
+
+@font-face {
+    font-family: 'PfennigItalic';
+    src: url(../Fuentes/PfennigBoldItalic.eot);
+    src: url(../Fuentes/PfennigBoldItalic.svg);
+    src: url(../Fuentes/PfennigBoldItalic.ttf);
+}
+
+body {
+    font-family: 'Pfennig';
+}
+
+h1, h2, h3, strong, b {
+    font-family: 'PfennigBold';
+}
+
+dfn, blockquote {
+    font-family: 'PfennigItalic';
+}
+
+#barra a {
+    font-family: 'PfennigBold';
+    text-decoration: none;
+}
+
+/*Tamaño de la fuente*/
+
+#principal {
+    font-size: 1em;
+    text-align: justify;
+}
+
+#CabeceraPagina h1 {
+    font-size: 3.5em;
+    text-align: center;
+    line-height: 0%;
+    font-variant: small-caps;
+}
+
+#CabeceraPagina h2 {
+    font-size: 200%;
+    text-align: center;
+    line-height: 0%;
+}
+
+#blog h2 {
+    font-size: 170%;
+    text-align: center;
+    line-height: 10%
+}
+
+h3 {
+    font-size: 180%;
+    text-align: center;
+    line-height: 10%
+}
+
+#principal {
+    background-color: rgb(153, 204, 153);
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* .CabeceraPagina {
+    background-color: rgb(153, 204, 102);
+    border: double
+} */
+
+#CabeceraPagina {
+    /* background-color: #99CC00; */
+    background: -webkit-linear-gradient(top, #99CC00, #FFFF00 5%, #99cc99 30%);
+    overflow: hidden;
+}
+
+#sobreContxita img {
+    margin: 10px;
+    float: left;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px #360;
+    -webkit-box-reflect: right 10px -webkit-gradient(linear, right center, left center, from(white), to(transparent), color-stop(75%, transparent));
+}
+
+#sobreContxita aside {
+    width: 770px;
+    height: 226px;
+    margin: 10px 10px 10px 0px;
+    float: left;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px #360;
+    /* background:-webkit-linear-gradient(45deg, #99CC00, #99CC99); */
+    /* background:-webkit-repeating-linear-gradient(left bottom, #99CC00, #99CC99 10%); 
+    */
+    background: -webkit-radial-gradient(50% 50%, 800px 180px, #99CC99, #99CC00);
+    /* background:-webkit-radial-gradient(#99CC00, #99CC99); */
+}
+
+#sobreContxita blockquote {
+    margin-top: 3em;
+    margin-left: 10em;
+    margin-right: 3em;
+    line-height: 1.5em;
+}
+
+/* Articulos */
+
+#blog {
+    margin: 0px 5px 5px 10px;
+    width: 760px;
+    background-color: rgba(250, 250, 250, .7);
+    float: left;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px #360;
+}
+
+#posts {
+    margin: 0px 10px 5px 5px;
+    width: 210px;
+    height: 500px;
+    background-color: rgba(250, 250, 250, .7);
+    float: left;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px #360;
+}
+
+#posts h2 {
+    text-align: center;
+}
+
+#barra {
+    background-color: #FF6600;
+    height: 50px;
+    padding: 5px;
+}
+
+#barra a:link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#barra ul li {
+    display: inline;
+    margin: 10px;
+    background-color: #e4e4e4;
+    padding: 5px 10px 5px 10px;
+    box-shadow: -10px -10px #360;
+    border-radius: 5em;
+    box-shadow: 0 0 10px #360;
+}
+
+#barra ul li:nth-child(1) {
+    background: #FFFFFF;
+}
+
+#barra ul li:nth-child(2) {
+    background: #CCCCCC;
+}
+
+#barra ul li:nth-child(3) {
+    background: #999999;
+}
+
+header:not(#CabeceraPágina) {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*Vínculos*/
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active:visited {
+    color: yellow;
+}
+
+article p:nth-of-type(odd) {
+    background-color: rgba(250, 250, 250, .7);
+}
+
+article p:nth-of-type(even) {
+    background-color: rgba(250, 250, 250, .5);
+}
+
+p, h1, h2, h3 {
+    padding: 10px
+}
+
+/* Formulario */
+
+#formulario {
+    background-image: url('../Imagenes/Teclas.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: 30% solid;
+    /* border-image: url("../Imagenes/Marco.jpg") 30% repeat; */
+}
+
+#formulario p, fieldset {
+    background-color: rgba(250, 250, 250, .5)
+}
+
+footer {
+    background-color: rgba(0, 80, 250, .7);
+    margin-top: 5px;
+    width: 1000px;
+    height: 80px;
+    float: left
+}
+
+/* Biografia */
+
+/* #biografia article { */
+    /* -webkit-column-count: 2;
+    -webkit-column-width: 10em;
+    -webkit-column-gap: 3em; */
+    /* -webkit-column-rule: medium double #666666; */
+    /*compatibilidad para Chrome y Safari*/
+    /* -moz-column-count: 2;
+    -moz-column-gap: 3em;
+    -moz-column-width: 10em; */
+    /* -moz-column-rule: medium double #666666; */
+    /*compatibilidad para Firefox*/
+    /* column-count: 2;
+    column-gap: 3em;*/
+    /* column-width: 10em; */
+    /* column-rule: medium double #666666; */
+/* } */
+
+/*biografía*/
+
+/* #enPiano{ */
+
+/* -webkit-transform:scale(-1,1); */
+
+/* -webkit-transform: translate(50px,100px) scale(-1,1); */
+
+/* -webkit-transform: translate(-40px,50px) scale(-1,1) skew(-30deg); */
+
+/* } */
+
+#enPiano {
+    float: left;
+    margin: 20px;
+    box-shadow: 0 0 10px #360;
+    border-radius: .5em;
+    /* -webkit-transform:rotate(45deg); */
+    /* -webkit-transform-origin:0 100%; */
+    /* -webkit-transform-origin:100% 100%; */
+    /* -webkit-transform-origin:150% 100%; */
+    /* -webkit-transform-origin:left center; */
+    /* -webkit-transform-origin:right top; */
+    /* -webkit-transform:rotate(-10deg); */
+    /* -webkit-transform:rotate(-45deg); */
+    /* -webkit-transform:perspective(1000px) rotateX(60deg); */
+    /* -webkit-transform:perspective(200px) rotateX(60deg); */
+    /* -webkit-transform:perspective(200px) rotateY(60deg); */
+    /* -webkit-transform:perspective(200px) rotateZ(60deg); */
+    /* -webkit-transform:perspective(200px) translateX(200px); */
+    -webkit-transform:perspective(1000px) translateZ(200px);
+}
+
+#bio {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 656px;
+    height: 180px;
+    box-shadow: 0 0 10px #360;
+    border-radius: .5em;
+    background: -webkit-radial-gradient(50% 50%, 800px 180px, #99CC99, #99CC00);
+}
